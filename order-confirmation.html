@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-nav">
+            <div class="logo">
+                <h1>Food Fantasy</h1>
+            </div>
+            <div class="search-icon">
+                <button id="searchButton" style="border: none; background: none; cursor: pointer;">
+                    <img src="C:\Users\dsouz\OneDrive\Pictures\Saved Pictures\510n1ix6FHL.png" alt="Search" width="24">
+                </button>
+                <input type="text" id="searchInput" placeholder="Search for food items..." style="display: none;" />
+            </div>
+            
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="food.html" class="home-tab">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="#">My Orders</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Categories &#9662;</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="#">Fast Food</a></li>
+                            <li><a href="#">Desserts</a></li>
+                            <li><a href="#">Beverages</a></li>
+                            <li><a href="#">Vegan</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">My Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="confirmation-container">
+        <h2>Are you sure you want to order?</h2><br>
+        <div class="confirmation-buttons">
+            <a href="customer-info.html" class="yes-btn">Yes</a>
+            <a href="javascript:history.back()" class="no-btn">No</a>
+        </div>
+    </div>
+</body>
+</html>

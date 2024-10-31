@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza - Food Fantasy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-nav">
+            <div class="logo">
+                <h1>Food Fantasy</h1>
+            </div>
+            <div class="search-icon">
+                <img src="C:\Users\dsouz\OneDrive\Pictures\Saved Pictures\510n1ix6FHL.png" alt="Search" width="24">
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="food.html" class="home-tab">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="#">My Orders</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Categories &#9662;</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="#">Fast Food</a></li>
+                            <li><a href="#">Desserts</a></li>
+                            <li><a href="#">Beverages</a></li>
+                            <li><a href="#">Vegan</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="food-details">
+        <img src="C:\Users\dsouz\OneDrive\Pictures\Saved Pictures\OIP.jfif" alt="Pizza" class="food-image">
+        <div class="food-info">
+            <section class="pizza-details">
+            <h2>Classic Margherita Pizza</h2>
+            <p class="description">A delicious cheese pizza topped with a blend of fresh mozzarella, tomatoes, and basil leaves. Perfect for all pizza lovers who enjoy a classic taste!</p>
+            <h3>Ingredients:</h3>
+            <ul class="ingredients">
+                <li>Fresh mozzarella cheese</li>
+                <li>Tomato sauce</li>
+                <li>Fresh basil leaves</li>
+                <li>Extra virgin olive oil</li>
+                <li>Thin, crispy crust</li>
+            </ul>
+            
+            <section class="customer-ratings">
+                <h2>Customer Ratings & Reviews</h2>
+                
+                <div class="rating-system">
+                    <span class="star-rating">
+                        <input type="radio" id="star5" name="rating" value="5">
+                        <label for="star5">★</label>
+                        <input type="radio" id="star4" name="rating" value="4">
+                        <label for="star4">★</label>
+                        <input type="radio" id="star3" name="rating" value="3">
+                        <label for="star3">★</label>
+                        <input type="radio" id="star2" name="rating" value="2">
+                        <label for="star2">★</label>
+                        <input type="radio" id="star1" name="rating" value="1">
+                        <label for="star1">★</label>
+                    </span>
+                    <span>Please rate this food item!</span>
+                </div>
+                <div class="review-section">
+                    <textarea placeholder="Write your review here..." rows="4"></textarea>
+                    <button class="submit-review">Submit Review</button>
+                </div>
+            </section>
+
+            
+        </div>
+    </section>
+
+        <div class="action-buttons">
+
+            <a href="order-confirmation.html" class="order-now-btn"><button class="order-btn">Order Now</button></a>
+            <button class="save-btn">Save</button>
+        </div>
+    </section>
+</body>
+</html>

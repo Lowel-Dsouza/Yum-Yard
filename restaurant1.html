@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant 1 - Food Fantasy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-nav">
+            <div class="logo">
+                <h1>Food Fantasy</h1>
+            </div>
+            <div class="search-icon">
+                <img src="C:\Users\dsouz\OneDrive\Pictures\Saved Pictures\510n1ix6FHL.png" alt="Search" width="24">
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="food.html" class="home-tab">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="#">My Orders</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Categories &#9662;</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="#">Fast Food</a></li>
+                            <li><a href="#">Desserts</a></li>
+                            <li><a href="#">Beverages</a></li>
+                            <li><a href="#">Vegan</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="restaurant-details">
+        
+        <img src="C:\Users\dsouz\OneDrive\Pictures\Saved Pictures\OIP (4).jfif" alt="Restaurant Image" class="restaurant-image">
+        <h2>Omkar Family Restaurant</h2>
+        
+        <section class="available-items">
+            <h2>Currently Available Items</h2>
+            <div class="food-item">
+                <a href="pizza.html">
+                <img src="C:\Users\dsouz\OneDrive\Pictures\Saved Pictures\OIP.jfif" alt="Pizza">
+                <div class="food-description">
+                    <h3>Pizza</h3>
+                    <p>A delicious cheese pizza with toppings of your choice.</p></a>
+                </div>
+            </div>
+        
+            <div class="food-item">
+                <a href="">
+                <img src="path/to/burger-image.jpg" alt="Burger">
+                <div class="food-description">
+                    <h3>Burger</h3>
+                    <p>A juicy burger with fresh lettuce, tomato, and cheese.</p></a>
+                </div>
+            </div>
+        
+            <div class="food-item">
+                <a href="">
+                <img src="path/to/pasta-image.jpg" alt="Pasta">
+                <div class="food-description">
+                    <h3>Pasta</h3>
+                    <p>Creamy pasta with rich flavors and Italian herbs.</p></a>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+    <div class="add-review">
+        <h3>Leave a Review</h3>
+        <label for="rating">Rating:</label>
+        <select id="rating">
+            <option value="5">★★★★★</option>
+            <option value="4">★★★★☆</option>
+            <option value="3">★★★☆☆</option>
+            <option value="2">★★☆☆☆</option>
+            <option value="1">★☆☆☆☆</option>
+        </select>
+
+        <label for="review-text">Your Review:</label>
+        <textarea id="review-text" rows="3" placeholder="Write your review here..."></textarea>
+
+        <button class="submit-review">Submit Review</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
